@@ -1,0 +1,94 @@
+.preload {
+  text-align: center;
+  width: 100vw;
+  // background: linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);
+  color: #555;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  padding-top: 40vh;
+  // height: 100vh;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+.preload-container {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.preload-left {
+  animation: showup 2s 1;
+  animation-fill-mode: forwards;
+  img {
+    height: 100px;
+  }
+}
+
+.preload-right {
+  height: 50px;
+  padding-bottom: 25px;
+  width: 0px;
+  animation: reveal 2s 1;
+  animation-fill-mode: forwards;
+}
+
+#preload-right h3 {
+  margin-left: -355px;
+  animation: slidein 2s 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes showup {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: -800px;
+  }
+  20% {
+    margin-left: -800px;
+  }
+  35% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+  20% {
+    opacity: 1;
+    width: 0px;
+  }
+  30% {
+    width: 100px;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    width: 100px;
+  }
+}

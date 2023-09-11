@@ -1,16 +1,14 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Button from "@mui/material/Button";
-import './editor.scss'
+import "./editor.scss";
 
 const Editor = (props) => {
-    const [disabled, setDisabled] = useState(false);
+  const [disabled, setDisabled] = useState(false);
 
   return (
     <div className="editor">
-      <h1>Image Editor Example!</h1>
-      <Button variant="contained" disabled={disabled}>
-        Classify
-      </Button>
+      {/* <canvas height={480} width={640}></canvas> */}
+      <div id='dummy'></div>
     </div>
   );
 };

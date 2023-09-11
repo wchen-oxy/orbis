@@ -1,6 +1,40 @@
 .photoshop {
-    width: 100%;
-    h1{
-        text-align: center;
-    }
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.photoshop-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+.photoshop-column {
+  display: flex;
+  padding: 15px;
+}
+
+.photoshop-main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.photoshop-upper-container {
+  
+}
+
+.photoshop-lower-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+
+  canvas {
+    background: #9e9e9e;
+    max-width: 640px;
+    max-height: 480px;
+    margin-bottom: 10px;
+  }
 }

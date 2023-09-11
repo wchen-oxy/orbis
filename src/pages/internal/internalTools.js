@@ -3,7 +3,7 @@ import React from 'react';
 const InternalTools = (props) => {
 return(
     <div>
-        Example
+        <p>Pretend something exists here</p>
     </div>
 );
 }

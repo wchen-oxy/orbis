@@ -1,6 +1,15 @@
-.editor{
-    width: 100%;
-    h1{
-        text-align: center;
-    }
+@import "./base";
+
+#dummy {
+  width: 100%;
+  height: 100%;
+  background-color:  #505050;
+}
+
+.editor {
+  height: 100%;
+  width: 100%;
+  h1 {
+    text-align: center;
+  }
 }

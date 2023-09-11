@@ -5,15 +5,15 @@ export const navbarStyles = {
         '& .MuiDrawer-paper': {
             width: 320,
             boxSizing: 'border-box',
-            backgroundColor: '#101F33',
-            color: 'rgba(255, 255, 255, 0.7)',
+            backgroundColor: '#3c4352',
+            color: 'rgba(238, 240, 245, 0.7)',
         },
         '& .Mui-selected': {
             color: 'red',
         },
     },
     icons: {
-        color: 'rgba(255, 255, 255, 0.7)!important',
+        color: 'rgba(238, 240, 245, 0.7)!important',
         marginLeft: '20px',
     },
     text: {

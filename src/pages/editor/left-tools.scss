@@ -1,0 +1,6 @@
+@import './base';
+
+.left-tools-container{
+    @extend %toolbar-base;
+
+}
